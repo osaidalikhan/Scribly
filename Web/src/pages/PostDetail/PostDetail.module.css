@@ -1,0 +1,123 @@
+.postContainer {
+  margin-top: 3em;
+}
+.postImg {
+  width: 100%;
+  height: 350px;
+}
+.postImg img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-block: 1em 3em;
+}
+.posted {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  /* box-shadow: rgb(197, 197, 197); */
+}
+.posted img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(197, 197, 197);
+}
+.name h6,
+.name p {
+  margin-bottom: 0px;
+}
+.name h6 {
+  text-transform: capitalize;
+}
+.name p {
+  font-size: 14px;
+}
+.updateBtns {
+  display: flex;
+  gap: 10px;
+}
+.editBtn {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(93, 253, 93);
+  cursor: pointer;
+}
+.editBtn svg {
+  color: var(--white-color);
+}
+.deletBtn {
+  background-color: rgb(243, 111, 111);
+}
+.postDescription h2 {
+  font-size: 40px;
+  margin-bottom: 0.4em;
+}
+.statsRow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 1.4em;
+}
+.viewsBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: rgb(120, 120, 120);
+}
+.postDescription p {
+  font-size: 19px;
+  margin-bottom: 1em;
+}
+.relatedPosts h5 {
+  font-size: 26px;
+  margin-bottom: 1em;
+}
+.post {
+  margin-bottom: 1em;
+}
+.post img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(197, 197, 197);
+}
+.post h6 {
+  font-size: 22px;
+  margin-block: 10px;
+}
+.post .readBtn {
+  padding-bottom: 20px;
+}
+.post .readBtn button {
+  height: 40px;
+  width: 100%;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  font-size: 14px;
+  border: none;
+  transition: 0.2s all;
+}
+.post .readBtn button:hover {
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}

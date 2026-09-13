@@ -1,0 +1,120 @@
+.header {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin-top: 3em;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid rgb(230, 230, 230);
+  flex-wrap: wrap;
+}
+
+.avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0px 0px 12px rgb(210, 210, 210);
+}
+
+.info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.nameRow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.nameRow h2 {
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.editBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid var(--primary-color);
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  border-radius: 30px;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.editBtn:hover {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+.bio {
+  margin: 10px 0 0;
+  color: rgb(90, 90, 90);
+  max-width: 500px;
+}
+
+.stats {
+  display: flex;
+  gap: 24px;
+  margin-top: 14px;
+  font-size: 15px;
+}
+
+.stats a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.stats a:hover {
+  color: var(--primary-color);
+}
+
+.postsHeading {
+  margin-bottom: 1em;
+}
+
+.card {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 14px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+  color: var(--white-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.overlay h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.viewsBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+}

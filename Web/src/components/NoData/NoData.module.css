@@ -1,0 +1,15 @@
+.no_data{
+    min-height:300px;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.no_data svg{
+    font-size: 60px;
+}
+.no_data h6{
+    font-size: 30px;
+}

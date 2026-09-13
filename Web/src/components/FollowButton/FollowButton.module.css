@@ -1,0 +1,22 @@
+.followBtn {
+  height: 40px;
+  padding: 0 22px;
+  border: none;
+  border-radius: 30px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+.followBtn:hover {
+  opacity: 0.85;
+}
+
+.following {
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
